@@ -1,0 +1,118 @@
+/* тело */
+body{
+    margin: 0;
+    font-family: Roboto  Condensed , Arial;
+    font-size: 15px;
+    color: black;
+     line-height: 1.5;
+    background: url('bg.jpg');
+}
+.page{
+    width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+}
+/* Шапка */
+.header{
+    padding: 20px;
+    background-color: #121212;
+}
+/* Заголовок */
+.header-title{
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+/* Подзаголовок */
+.header-subtitle{
+    margin: 0;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+}
+/* Навигация */
+.nav{
+    text-align: center;
+}
+.nav-link{
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #121212;
+}
+.nav-link:hover{
+    background-color: #eee;
+}
+
+/* content */
+
+.content{
+    padding: 20px;
+}
+.content-title{
+    font-weight: normal;
+    margin: 0 0 15px;
+}
+.content-text{
+    margin-bottom: 20px;
+}
+
+.read-more{
+    color: #1d7abe;
+    text-decoration: none;
+}
+.read-more:hover{
+    text-decoration: underline;
+}
+/* article */
+.article{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+.article-title{
+    font-size: 18px;
+    color: dodgerblue;
+    margin: 0 0 5px;
+}
+.article-title a{
+    color: inherit;
+    text-decoration: none;
+}
+.article-title a:hover{
+    text-decoration: underline;
+}
+.article-date{
+    color: darkgrey;
+    font-size: 12px''
+}
+/* Footer */
+.footer{
+    text-align: right;
+    color: darkslategrey;
+}
+/* img */
+.ims{
+    display: inline-block;
+    position: relative;
+}
+.img:hover::after{
+    content:attr(data-title);
+    position:absolute; 
+    left: 20%; 
+    top: 30%;
+    z-index: 1;
+    background-color:aliceblue;
+    border: 1px solid #333;
+    
+}
+
+
+
+
+
+
+
+
